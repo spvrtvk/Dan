@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @spvrtvk
-- 👀 I’m interested in computer science
+- 👀 I’m interested in computer science,business information system
 - 🌱 I’m currently learning php,windev,angular,js...
 - 💞️ I’m looking to collaborate on many project to improve my skills
 - 📫 How to reach me? By mail on ni.spvrtvk00@gmail.com or samyfelix00@gmail.com
