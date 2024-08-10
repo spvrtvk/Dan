@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "author": "THIERRY ARNOLD NTIEUPMA",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -70.2, "left": -150.8, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -67.2, "left": -283.16, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -42,
+      "left": 80.6,
+      "attrs": { "color": "green", "flip": "" }
+    },
+    { "type": "wokwi-led", "id": "led2", "top": 25.2, "left": 80.6, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 3.95,
+      "left": 96,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 71.15,
+      "left": 96,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "bb1:30b.j", "esp:GND.3", "red", [ "v19.2", "h-124.8", "v-76.8" ] ],
+    [ "bb1:30t.e", "esp:GND.3", "green", [ "v9.6", "h38.4", "v-115.2", "h-153.6", "v48" ] ],
+    [ "esp:16", "bb1:25b.j", "red", [ "h19.2", "v38.4", "h86.4" ] ],
+    [ "bb1:25t.e", "esp:17", "green", [ "v9.6", "h-86.4", "v9.6" ] ],
+    [ "r1:1", "bb1:24t.d", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:30t.d", "", [ "$bb" ] ],
+    [ "r2:1", "bb1:24b.i", "", [ "$bb" ] ],
+    [ "r2:2", "bb1:30b.i", "", [ "$bb" ] ],
+    [ "led2:A", "bb1:25b.h", "", [ "$bb" ] ],
+    [ "led2:C", "bb1:24b.h", "", [ "$bb" ] ],
+    [ "led1:A", "bb1:25t.c", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:24t.c", "", [ "$bb" ] ]
+  ],
+  "dependencies": {}
+}
