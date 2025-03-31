@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @spvrtvk
-- 👀 I’m interested in computer science,business information system
-- 🌱 I’m currently learning python, react native, angular, js...
-- 💞️ I’m looking to collaborate on many project to improve my skills
+- 👋 Hi, I’m Dan,
+- 👀 I’m interested in Machine Learning | NLP | Kaggle Competitor | Open Source Enthusiast...
+- 🌱 I’m currently learning AI integrated system, Deep learning algorithmic ...
+- 🤝🏾 I’m looking to collaborate on many project to improve my skills.
 - 📫 How to reach me? By mail on ni.spvrtvk00@gmail.com
 
 <!---
